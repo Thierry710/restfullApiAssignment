@@ -1,9 +1,7 @@
 # RESTful API for E-Commerce – Assignment
 
-Kamanzi Thierry  
+Kamanzi Ishimwe Thierry  
 Student ID: 27215  
-Course: Web Services / RESTful API  
-Instructor: __________________  
 
 ---
 
@@ -54,6 +52,7 @@ The API supports two viewing operations:
 `/api/products/viewAll`
 
 Retrieves all products stored in the database.
+https://github.com/Thierry710/restfullApiAssignment/blob/7410326af3427f7ab15a6735ac7ad459425ac963/screenshots/web%20view%20all%20.png
 
 ### View Product by ID
 
@@ -64,6 +63,7 @@ Retrieves a specific product based on its ID.
 
 - If the product exists → The product details are returned.
 - If the product does not exist → A NOT FOUND response is returned.
+https://github.com/Thierry710/restfullApiAssignment/blob/7410326af3427f7ab15a6735ac7ad459425ac963/screenshots/web%20view%20.png
 
 ---
 
@@ -78,7 +78,7 @@ The system first verifies that the product exists.
 
 - If found → The product details (name, description, price, category, and stock quantity) are updated successfully.
 - If not found → An appropriate error response is returned.
-
+https://github.com/Thierry710/restfullApiAssignment/blob/7410326af3427f7ab15a6735ac7ad459425ac963/screenshots/web%20update%20.png
 ---
 
 ## Delete Operation
@@ -92,6 +92,7 @@ The system confirms whether the product exists before deletion.
 
 - If it exists → The product is removed from the database.
 - If it does not exist → A NOT FOUND response is returned.
+  https://github.com/Thierry710/restfullApiAssignment/blob/7410326af3427f7ab15a6735ac7ad459425ac963/screenshots/web%20delete.png
 
 ---
 
