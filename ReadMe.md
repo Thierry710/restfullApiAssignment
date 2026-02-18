@@ -101,9 +101,7 @@ The system confirms whether the product exists before deletion.
 - Java
 - Spring Boot
 - Spring Web
-- Spring Data JPA
 - Maven
-- MySQL / H2 Database
 - Postman (for API testing)
 
 ---
